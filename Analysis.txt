@@ -1,16 +1,49 @@
-for Task 0 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+for Task 0 =>
+
+Worst case time-complexity is Big O(1)
+
+The time-complexity for this program is Big O(1) because we are not iterating the elements from input lists (calls or texts). We are accessing the first and last value from the lists (calls and texts) by an index. ---------------------------------------------------------------------------------------
+
+for Task 1 = analysis (Worst Case Big-O Notation) of my solution == O(n) 
 
 
+We have 2 different for loops but they all iterate from 1 to n in a liner manner O(n), and in both of them we are adding a new element in a dictionary; this will take average time off O(1) . As a result we end up with total of O(n*1) + O(n*1) = O(2n).
 
-for Task 1 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+- O(2n) simply means that it takes two times, the time to run O(n) but, we know that Big-O notation is about how a algorithm scales, and not about how long it takes to run. And O(2n) scales by O(n).
+
+- Hence, we could simplify the time complexity to O(n).
+
+---------------------------------------------------------------------------------------
 
 for Task 2 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
 
+---------------------------------------------------------------------------------------
 
+for Task 3 = analysis 
 
-for Task 3 = analysis (Worst Case Big-O Notation) of my solution == O(n log n) as it has sort operation
+For part A,
 
+There are two for loops each one has time complexity of O(n)-----> O( n +n) ------> O(2n), and constant are reduced as they have no effect on the time complexity. So, the overall complexity for the both for loops turns out to be `O(n)`,
 
-for Task 4 = analysis (Worst Case Big-O Notation) of my solution == O(n log n) as it has sort operation.
+then there is a sorting function which has O(n log n) notation,
 
+sorting functions are more time expensive than a for loop, so, the overall notation for part A is O(n log n)
+
+For partB,
+
+You have two `for` loops, they have the same analysis as partA, each one has time complexity of O(n)-----> O( n +n) ------> O(2n), and constant are reduced as they have no effect on the time complexity. So, the overall complexity for the both for loops turns out to be `O(n)`
+
+---------------------------------------------------------------------------------------
+
+for Task 4 =>
+
+analysis (Worst Case Big-O Notation) of my solution == O(n log n) 
+It's better to go with O(n log n) or O(n+m).
+
+Where
+
+n is the length of calls
+m is the length of texts
+Worst run time: O(n + m) + O((n+m) log(n + m)) = O((n+m) log(n + m))
+Explanation: There are two loops with different size (n, m) and sort n+m items which is O((n + m) log(n +m)). So the total runtime is O(n + m) + O((n+m) log(n + m))
 
