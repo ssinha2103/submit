@@ -1,0 +1,16 @@
+for Task 0 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+
+
+
+for Task 1 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+
+for Task 2 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+
+
+
+for Task 3 = analysis (Worst Case Big-O Notation) of my solution == O(n log n) as it has sort operation
+
+
+for Task 4 = analysis (Worst Case Big-O Notation) of my solution == O(n log n) as it has sort operation.
+
+
