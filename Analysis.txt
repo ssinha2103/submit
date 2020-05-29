@@ -16,6 +16,8 @@ We have 2 different for loops but they all iterate from 1 to n in a liner manner
 ---------------------------------------------------------------------------------------
 
 for Task 2 = analysis (Worst Case Big-O Notation) of my solution == O(n) as normal for loops are working
+finding max will also take linear time.
+So,the overall runtime complexity will be O(n).
 
 ---------------------------------------------------------------------------------------
 
